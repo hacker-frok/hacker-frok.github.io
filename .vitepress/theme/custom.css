@@ -47,10 +47,11 @@
   }
 }
 @media (min-width: 960px) {
-    .name[data-v-72cc4481], .text[data-v-72cc4481] {
-        line-height: 64px;
-        font-size: 43px;
-    }
+  .VPHero .name,
+  .VPHero .text {
+    line-height: 64px;
+    font-size: 43px;
+  }
 }
 .VPHero .image-bg {
   opacity: 0.82;
