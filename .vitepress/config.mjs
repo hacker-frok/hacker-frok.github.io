@@ -13,6 +13,7 @@ export default defineConfig({
         hostname: "https://liteloaderqqnt.github.io"
     },
     themeConfig: {
+        outlineTitle: "当前页导航",
         visitor: {
             badgeId: "hacker-frok.github.io"
         },
@@ -22,14 +23,8 @@ export default defineConfig({
             { text: "常见问题", link: "/guide/faq" }
         ],
         sidebar: [
-            {
-                text: "开始使用",
-                collapsed: false,
-                items: [
-                    { text: "安装与运行", link: "/guide/install" },
-                    { text: "常见问题", link: "/guide/faq" }
-                ]
-            }
+            { text: "安装与运行", link: "/guide/install" },
+            { text: "常见问题", link: "/guide/faq" }
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/hacker-frok/qq-farm-bot-ai" }

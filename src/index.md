@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "QQ 经典农场机器人"
-  text: "一个轻量的 AI 视觉自动化辅助"
-  tagline: "OpenCV  |  QQ/微信双平台  |  稳定长时运行"
+  text: "一个轻量的 AI 视觉辅助工具"
+  tagline: "免费 |  OpenCV  |  QQ/微信双平台  |  稳定长时运行"
   image:
     src: /bot1.png
     alt: 机器人
