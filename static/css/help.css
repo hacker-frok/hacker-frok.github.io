@@ -1,0 +1,68 @@
+/* ============================================
+   help.css - 常见问题页专属样式
+   ============================================ */
+
+.faq-content {
+    padding-bottom: 48px;
+}
+
+.faq-item {
+    margin-bottom: 2px;
+    scroll-margin-top: 96px;
+}
+
+.faq-item h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.faq-item p,
+.faq-item li {
+    font-size: 15px;
+}
+
+.faq-item ul,
+.faq-item ol {
+    margin-top: 12px;
+}
+
+.faq-item .dot-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.page-nav {
+    margin-top: 26px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 300px;
+    max-width: 100%;
+    padding: 14px 18px;
+    border: 1px solid var(--border-color-darker);
+    border-radius: 12px;
+    background: var(--bg-main);
+}
+
+.page-nav-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.2;
+}
+
+.page-nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--link-color);
+}
+
+.page-nav-link:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+    .page-nav {
+        width: 100%;
+    }
+}

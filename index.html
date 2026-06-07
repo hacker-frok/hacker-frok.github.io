@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ 经典农场机器人</title>
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="icon" type="image/png" href="static/images/icon.png">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body class="index-page">
+
+    <!-- 导航栏 -->
+    <header>
+        <div class="container nav-inner">
+              <a href="index.html">
+                <div class="logo">
+                    QQ 经典农场机器人
+                    <span class="badge"><img class="m-nav-visitor" src="https://visitor-badge.laobi.icu/badge?left_text=浏%20%20览&amp;page_id=hacker-frok.github.io" alt="visitors"></span>
+                </div>
+            </a>
+            <div class="nav-right">
+                <nav class="nav-links">
+                    <a href="index.html" class="active">首页</a>
+                    <a href="install.html">帮助文档</a>
+                    <a href="help.html">常见问题</a>
+                    <a href="manual.html">操作手册</a>
+                </nav>
+                <div class="nav-icons">
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <svg id="theme-toggle" class="nav-theme-toggle" width="34" height="20" viewBox="0 0 34 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer; flex-shrink: 0;">
+                        <rect x="1" y="1" width="32" height="18" rx="9"></rect>
+                        <g transform="translate(11 10)">
+                            <circle cx="0" cy="0" r="2.6"></circle>
+                            <path d="M0 -5V-3.6M0 3.6V5M5 0H3.6M-3.6 0H-5M3.5 3.5L2.5 2.5M-2.5 -2.5L-3.5 -3.5M3.5 -3.5L2.5 -2.5M-2.5 2.5L-3.5 3.5"></path>
+                        </g>
+                    </svg>
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <a class="nav-github" href="https://github.com/hacker-frok/qq-farm-bot-ai" target="_blank" rel="noreferrer" aria-label="打开 GitHub 仓库">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.35.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.02c.98 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.18c0 .31.21.67.79.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 顶部主视觉区 -->
+    <section class="hero container">
+        <div class="hero-content">
+            <h1 class="hero-title"><span>QQ</span> 经典农场机器人</h1>
+            <h2 class="hero-subtitle">一个轻量的 AI 视觉辅助工具</h2>
+            <p class="hero-desc">免费 &nbsp;|&nbsp; OpenCV &nbsp;|&nbsp; QQ/微信双平台 &nbsp;|&nbsp; 单开/多开</p>
+            <div class="hero-actions">
+                <a href="install.html"><button class="btn btn-primary">快速开始</button></a>
+                <a href="help.html"><button class="btn btn-outline">常见问题</button></a>
+                <a href="manual.html"><button class="btn btn-outline">操作手册</button></a>
+            </div>
+        </div>
+
+        <!-- 模拟带有紫色光晕的插图 -->
+        <div class="hero-visual">
+            <div class="avatar-glow">
+                <img class="image-logo" src="./static/images/ui.png" alt="机器人" id="image-logo" role="button" tabindex="0" draggable="false">
+                <div class="image-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心功能网格 (3x3) -->
+    <section class="features">
+        <div class="container grid-features">
+            <!-- 1 -->
+            <div class="feature-card">
+                <h4>纯视觉识别链路</h4>
+                <p>不注入、不改数据，统一 OpenCV 模板匹配，支持目录级多模板与全局多尺度。</p>
+            </div>
+            <!-- 2 -->
+            <div class="feature-card">
+                <h4>全自动种植体系</h4>
+                <p>空地识别、种子识别、自动买种、分页找种、播种后自动施肥与紫晶土地支持。</p>
+            </div>
+            <!-- 3 -->
+            <div class="feature-card">
+                <h4>收获与维护动作</h4>
+                <p>一键/单个收获、浇水、除草、除虫、自动扩建、施肥容器补充与仓库果实出售。</p>
+            </div>
+            <!-- 4 -->
+            <div class="feature-card">
+                <h4>好友流程与黑名单</h4>
+                <p>好友偷取与帮忙独立开关，支持好友入口冷却、底部快捷入口、黑名单可视化管理。</p>
+            </div>
+            <!-- 5 -->
+            <div class="feature-card">
+                <h4>每日福利调度</h4>
+                <p>每日任务、SVIP、分享、商城福利按时执行，触发时间可配置，链路支持弹窗重试。</p>
+            </div>
+            <!-- 6 -->
+            <div class="feature-card">
+                <h4>长时稳定性</h4>
+                <p>周期重启、重连恢复、下次再来停机、休息时段暂停、每日计数持久化与高性能模式。</p>
+            </div>
+            <!-- 7 -->
+            <div class="feature-card">
+                <h4>多开与流程隔离</h4>
+                <p>支持多窗口多账号并行运行，主流程与好友流程可独立开关与限流。</p>
+            </div>
+            <!-- 8 -->
+            <div class="feature-card">
+                <h4>调试与可观测</h4>
+                <p>提供命中模板与匹配区域调试预览、运行日志分层输出与关键动作统计。</p>
+            </div>
+            <!-- 9 -->
+            <div class="feature-card">
+                <h4>打包与升级体验</h4>
+                <p>提供安装包与绿色版分发，支持版本检查更新与安装前旧版本清理流程。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 文本信息区 -->
+    <section class="text-section container">
+        <div class="text-block">
+            <h3>最新版本亮点 (v2.1.x)</h3>
+            <ul>
+                <li>全新重构版本，全面优化性能</li>
+                <li>单开多开自由切换，你想要的都有</li>
+                <li>修复部分机器上闪退的问题</li>
+                <li>微信抢鼠标处理，不再抢鼠标</li>
+                <li>可设置不偷萝卜</li>
+                <li>可设置每日自动自动进行捣乱</li>
+                <li>可设置每日自动刷新萝卜种植经验值</li>
+                <li>可设置小程序加载等待时间</li>
+                <li>支持种植四宫格种子</li>
+                <li>支持从底部好友列表检测务农，防止频繁刷新好友列表</li>
+                <li>全新优化bot运行逻辑，秒开启机器人</li>
+                <li>其它已知bug修复</li>
+            </ul>
+        </div>
+
+        <div class="text-block" style="border-top: none; padding-top: 0;">
+            <h3>项目原则</h3>
+            <ul>
+                <li>日常完全免费，按需要配置。</li>
+                <li>以视觉自动化为核心，不注入进程、不修改客户端数据。</li>
+                <li>仅用于学习与研究计算机视觉自动化技术，请自行评估与承担使用风险。</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="image-preview" id="image-preview" aria-hidden="true">
+        <div class="image-preview-backdrop" data-preview-close></div>
+        <div class="image-preview-panel" role="dialog" aria-modal="true" aria-label="图片预览">
+            <button type="button" class="image-preview-close" data-preview-close aria-label="关闭预览">×</button>
+            <img class="image-preview-img" id="image-preview-img" src="./static/images/ui.png" alt="机器人大图预览">
+        </div>
+    </div>
+
+    <script src="static/js/theme.js"></script>
+    <script>
+        (function () {
+            var header = document.querySelector("header");
+            var previewTrigger = document.getElementById("image-logo");
+            var previewLayer = document.getElementById("image-preview");
+            var previewImage = document.getElementById("image-preview-img");
+            var previewCloseTargets = document.querySelectorAll("[data-preview-close]");
+
+            if (header) {
+                window.addEventListener("scroll", function () {
+                    header.classList.toggle("scrolled", window.scrollY > 0);
+                }, { passive: true });
+            }
+
+            function openPreview() {
+                if (!previewLayer || !previewImage || !previewTrigger) {
+                    return;
+                }
+                previewImage.src = previewTrigger.src;
+                previewLayer.classList.add("is-open");
+                previewLayer.setAttribute("aria-hidden", "false");
+            }
+
+            function closePreview() {
+                if (!previewLayer) {
+                    return;
+                }
+                previewLayer.classList.remove("is-open");
+                previewLayer.setAttribute("aria-hidden", "true");
+            }
+
+            if (previewTrigger) {
+                previewTrigger.addEventListener("click", openPreview);
+                previewTrigger.addEventListener("keydown", function (event) {
+                    if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openPreview();
+                    }
+                });
+            }
+
+            previewCloseTargets.forEach(function (target) {
+                target.addEventListener("click", closePreview);
+            });
+
+            window.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") {
+                    closePreview();
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帮助文档 - QQ 经典农场机器人</title>
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="icon" type="image/png" href="static/images/icon.png">
+    <link rel="stylesheet" href="static/css/install.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <header>
+        <div class="container nav-inner">
+            <a href="index.html">
+                <div class="logo">
+                    QQ 经典农场机器人
+                    <span class="badge"><img class="m-nav-visitor" src="https://visitor-badge.laobi.icu/badge?left_text=浏%20%20览&amp;page_id=hacker-frok.github.io" alt="visitors"></span>
+                </div>
+            </a>
+            <div class="nav-right">
+                <nav class="nav-links">
+                    <a href="index.html">首页</a>
+                    <a href="install.html" >帮助文档</a>
+                    <a href="help.html">常见问题</a>
+                    <a href="manual.html" class="active">操作手册</a>
+                </nav>
+                <div class="nav-icons">
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <svg id="theme-toggle" class="nav-theme-toggle" width="34" height="20" viewBox="0 0 34 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer; flex-shrink: 0;">
+                        <rect x="1" y="1" width="32" height="18" rx="9"></rect>
+                        <g transform="translate(11 10)">
+                            <circle cx="0" cy="0" r="2.6"></circle>
+                            <path d="M0 -5V-3.6M0 3.6V5M5 0H3.6M-3.6 0H-5M3.5 3.5L2.5 2.5M-2.5 -2.5L-3.5 -3.5M3.5 -3.5L2.5 -2.5M-2.5 2.5L-3.5 3.5"></path>
+                        </g>
+                    </svg>
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <a class="nav-github" href="https://github.com/hacker-frok/qq-farm-bot-ai" target="_blank" rel="noreferrer" aria-label="打开 GitHub 仓库">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.35.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.02c.98 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.18c0 .31.21.67.79.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 文档主体区 -->
+    <div class="doc-container">
+        
+        <!-- 左侧导航 -->
+        <aside class="sidebar">
+            <div class="sidebar-title">当前页导航</div>
+            <ul class="sidebar-nav">
+                <li><a href="#single">单开版特殊功能</a></li>
+                <li><a href="#multiple">多开版特别功能</a></li>
+                <li><a href="#special">通用功能</a></li>
+                <li><a href="#vip">如何开通VIP</a></li>
+
+            </ul>
+        </aside>
+
+        <!-- 右侧正文 -->
+        <main class="doc-content">
+            <h1>操作手册</h1>
+            <p class="desc">本页面仅面向安装包用户，不涉及源码部署与开发环境搭建。</p>
+
+            <hr>
+
+            <h2 id="single">单开版特殊功能</h2>
+            <ol class="dot-list">
+                <img src="./static/images/screenshot/s1.png" alt="单开版功能解析" class="screenshot-image">
+                <h3 class="highlight">单开版只可以同时操作一个农场小程序，会自动启动选择的小程序(QQ、微信)</h3>
+
+                <li>在①处理选择要自动打开的小程序，自动重启也会重启选择的小程序</li>
+                <li>②处可以隐藏小程序，隐藏后将看不到小程序，但能可以正常挂着，沉浸式运行</li>
+                <li>注意在虚拟机中最好不要隐藏小程序，晚上挂机也不要隐藏，有可能重启会有问题</li>
+                <li>大前门是功能配置菜单，包括高级设置、好友屏蔽</li>
+
+            </ol>
+
+
+            <hr>
+
+            <h2 id="multiple">多开版特别功能</h2>
+            <ul class="dot-list">
+                <img src="./static/images/screenshot/m1.png" alt="多开版功能解析" class="screenshot-image">
+                <h3 class="highlight">多开版可以同时操作多个农场小程序，无法自动启动小程序(QQ、微信)，需要手动多列表中选择小程序窗口，周期性重启会自动按钮选择的窗口进行重启。</h3>
+                <li>①处按钮加以增加实例，每个实例可以独立操作一个农场小程序</li>
+                <li>②处在”开始运行“前，要从这里选择对应的小程序窗口，前提是要先自己打开对应的小程序窗口，如果打开了看不到，点击③处的按钮刷新再选择</li>
+                <li>④处按钮可以定位已经选择的小程序，点击后会抖动小程序窗口，让你知道当前是哪个小程序</li>
+                <li>⑤处是每个实例下的独立功能配置菜单，包括高级设置、好友屏蔽</li>
+                <li class="highlight">⑥处很重要，如果有多个QQ小程序，需要在这里填写QQ号，在重启小程序时，才会根据QQ号进行选择启动哪个小程序！如果不设置，周期重启小程序将失败！</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="special">通用功能</h2>
+            <ul class="dot-list">
+                <img src="./static/images/screenshot/m2.png"  class="screenshot-image">
+                <li>这是高级设置页面，右下角①处分别是保存生重置按钮，保存后要重启才生效。如果有时有异常可以重置来解决部分问题。</li>
+                <img src="./static/images/screenshot/m3.png"  class="screenshot-image">
+                <li>这是好友屏蔽页面，所谓好友屏蔽，就是可以把好友加入黑名单，在黑名单内，不再偷取帮忙该好友。添加后也要重启才生效。操作方式：先手动打开农场小程序的好友列表，然后点击”获取截图识别好友“，就会看到识别到的好友列表，选择好友，点击保存。</li>
+                <img src="./static/images/screenshot/m4.png"  class="screenshot-image">
+                <li>③处如果开启，会先种背包仓库的种子，但不会种已经锁定的种子</li>
+                 <img src="./static/images/screenshot/m5.png"  class="screenshot-image">
+                <li>④处如果开启，会每日种植一定数量的白萝卜，直到刷满种植经验</li>
+                <li>⑤处如果开启，可以支持种植占用四块地的种子，但种植可能位置不好，最好还是自己种植好。</li>
+                 <img src="./static/images/screenshot/m6.png"  class="screenshot-image">
+                <li class="highlight">⑦处开启后，可以防止微信抢鼠标，开启后就可以安心工作了</li>
+                 <img src="./static/images/screenshot/m7.png"  class="screenshot-image">
+                <li>⑧处开启后，会在好友家农场底部的好友列表进行检测是否帮忙，直到达到指定数量才回家</li>
+                <li>⑨处开启后，每天会自动进行捣乱，直到放完虫子、草</li>
+                <li>⑩处开启后，进入好友农场，检测到萝卜(白萝卜、胡萝卜)时，将不偷取，然后将该好友加入不偷取名单10分钟</li>
+                 <img src="./static/images/screenshot/m8.png"  class="screenshot-image">
+                <li>⑪处开启后，会进行周期性重启，这样可能会解决部分农场不显示偷菜按钮的问题</li>
+                <li>⑫处设置周期重启的时间，会随机在这个时间期间重启</li>
+                <li>⑬处开启后，可以设置休息时间，休息时间不再偷菜或者退出小程序。</li>
+            </ul>
+
+            <hr>
+            <h2 id="vip">如何开通VIP</h2>
+            <ul class="dot-list">
+                <img src="./static/images/screenshot/v1.png"  class="screenshot-image">
+                <li>①处是开通VIP的按钮，点击后会打开开通VIP的弹窗页面</li>
+                <img src="./static/images/screenshot/v2.png"  class="screenshot-image">
+                <li>②处显示的是未激活VIP的状态</li>
+                <li>③处是购买卡密的入口，如果你没有卡密，可以点击去购买。</li>
+                <li>④处是输入卡密的框，输入后点击确认⑤处的”绑定卡密“即可激活VIP。</li>
+                 <img src="./static/images/screenshot/v3.png"  class="screenshot-image">
+                <li>①处激活vip后会变成”VIP会员“，点击会出现激活信息弹窗</li>
+                <li>②处显示的是VIP的过期时间</li>
+                <li>③处是解绑操作，每个卡密只能解绑一个设置，要解绑才能在另一台设置重新绑定。</li>
+
+            </ul>
+
+            <hr>
+
+
+            <h2 id="feedback">反馈渠道</h2>
+            <ul>
+                <li>GitHub Issues：<a href="https://github.com/hacker-frok/qq-farm-bot-ai/issues" target="_blank">https://github.com/hacker-frok/qq-farm-bot-ai/issues</a></li>
+                <li>提交问题请附带：程序版本号、操作系统版本、问题截图 / 日志文件。</li>
+                <li>功能建议欢迎通过 Issues 提交，标注 <code>feature request</code> 标签。</li>
+            </ul>
+</main>
+    </div>
+
+    <div class="image-preview" id="image-preview" aria-hidden="true">
+        <div class="image-preview-backdrop" data-preview-close></div>
+        <div class="image-preview-panel" role="dialog" aria-modal="true" aria-label="图片预览">
+            <button type="button" class="image-preview-close" data-preview-close aria-label="关闭预览">×</button>
+            <img class="image-preview-img" id="image-preview-img" src="./static/images/screenshot/s1.png" alt="截图大图预览">
+        </div>
+    </div>
+
+    <script src="static/js/theme.js"></script>
+    <script>
+        // 侧边栏滚动高亮联动
+        (function () {
+            var sections = document.querySelectorAll(".doc-content h2");
+            var navLinks = document.querySelectorAll(".sidebar-nav a");
+            var previewTriggers = document.querySelectorAll(".screenshot-image");
+            var previewLayer = document.getElementById("image-preview");
+            var previewImage = document.getElementById("image-preview-img");
+            var previewCloseTargets = document.querySelectorAll("[data-preview-close]");
+
+            window.addEventListener("scroll", function () {
+                var current = "";
+                var offset = (document.querySelector("header") || {}).offsetHeight || 0;
+                sections.forEach(function (section) {
+                    if (pageYOffset >= section.offsetTop - offset - 32) {
+                        current = section.getAttribute("id");
+                    }
+                });
+                navLinks.forEach(function (link) {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === "#" + current) {
+                        link.classList.add("active");
+                    }
+                });
+            });
+
+            function openPreview(image) {
+                if (!previewLayer || !previewImage || !image) {
+                    return;
+                }
+                previewImage.src = image.src;
+                previewImage.alt = image.alt ? image.alt + "大图预览" : "截图大图预览";
+                previewLayer.classList.add("is-open");
+                previewLayer.setAttribute("aria-hidden", "false");
+            }
+
+            function closePreview() {
+                if (!previewLayer) {
+                    return;
+                }
+                previewLayer.classList.remove("is-open");
+                previewLayer.setAttribute("aria-hidden", "true");
+            }
+
+            previewTriggers.forEach(function (image) {
+                image.setAttribute("role", "button");
+                image.setAttribute("tabindex", "0");
+                image.setAttribute("draggable", "false");
+                image.addEventListener("click", function () {
+                    openPreview(image);
+                });
+                image.addEventListener("keydown", function (event) {
+                    if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        openPreview(image);
+                    }
+                });
+            });
+
+            previewCloseTargets.forEach(function (target) {
+                target.addEventListener("click", closePreview);
+            });
+
+            window.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") {
+                    closePreview();
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

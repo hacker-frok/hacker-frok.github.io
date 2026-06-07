@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见问题 - QQ 经典农场机器人</title>
+    <link rel="icon" type="image/png" href="static/images/icon.png">
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/install.css">
+    <link rel="stylesheet" href="static/css/help.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-inner">
+             <a href="index.html">
+                <div class="logo">
+                    QQ 经典农场机器人
+                    <span class="badge"><img class="m-nav-visitor" src="https://visitor-badge.laobi.icu/badge?left_text=浏%20%20览&amp;page_id=hacker-frok.github.io" alt="visitors"></span>
+                </div>
+            </a>
+            <div class="nav-right">
+                <nav class="nav-links">
+                    <a href="index.html">首页</a>
+                    <a href="install.html">帮助文档</a>
+                    <a href="help.html" class="active">常见问题</a>
+                    <a href="manual.html" >操作手册</a>
+                </nav>
+                <div class="nav-icons">
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <svg id="theme-toggle" class="nav-theme-toggle" width="34" height="20" viewBox="0 0 34 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer; flex-shrink: 0;">
+                        <rect x="1" y="1" width="32" height="18" rx="9"></rect>
+                        <g transform="translate(11 10)">
+                            <circle cx="0" cy="0" r="2.6"></circle>
+                            <path d="M0 -5V-3.6M0 3.6V5M5 0H3.6M-3.6 0H-5M3.5 3.5L2.5 2.5M-2.5 -2.5L-3.5 -3.5M3.5 -3.5L2.5 -2.5M-2.5 2.5L-3.5 3.5"></path>
+                        </g>
+                    </svg>
+                    <span class="nav-divider" aria-hidden="true"></span>
+                    <a class="nav-github" href="https://github.com/hacker-frok/qq-farm-bot-ai" target="_blank" rel="noreferrer" aria-label="打开 GitHub 仓库">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.35.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.02c.98 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.18c0 .31.21.67.79.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-title">当前页导航</div>
+            <ul class="sidebar-nav">
+                <li><a href="#faq-1">软件是否免费</a></li>
+                <li><a href="#faq-2">官方下载地址</a></li>
+                <li><a href="#faq-3">启动失败排查</a></li>
+                <li><a href="#faq-4">微信打字问题</a></li>
+                <li><a href="#faq-5">虚拟机不稳定</a></li>
+                <li><a href="#faq-6">停机或重启</a></li>
+                <li><a href="#faq-7">安全升级</a></li>
+                <li><a href="#faq-8">反馈问题</a></li>
+                <li><a href="#faq-9">免责声明</a></li>
+            </ul>
+        </aside>
+
+        <main class="doc-content faq-content">
+            <h1>常见问题</h1>
+
+            <hr>
+
+            <section class="faq-item" id="faq-1">
+                <h2>软件是免费的吗?</h2>
+                <p>软件<span class="highlight">完全免费</span>，部分功能需要解锁。若你通过第三方付费购买，请立即退款并从官方发布页重新下载。</p>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-2">
+                <h2>到哪里下载才是官方版本?</h2>
+                <p>仅建议使用项目发布页：</p>
+                <ul>
+                    <li><a href="https://github.com/hacker-frok/qq-farm-bot-ai/releases/latest" target="_blank" rel="noreferrer">https://github.com/hacker-frok/qq-farm-bot-ai/releases/latest</a></li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-3">
+                <h2>为什么启动后没反应或启动失败?</h2>
+                <p>优先排查：</p>
+                <ol>
+                    <li>是否为 <span class="highlight">Windows 10/11</span>。</li>
+                    <li>是否被安全软件拦截（安装程序、快捷方式或主程序）。</li>
+                    <li>是否缺少 VC++ 运行库，可下载安装：<a href="https://aka.ms/vc14/vc_redist.x64.exe" target="_blank" rel="noreferrer">https://aka.ms/vc14/vc_redist.x64.exe</a></li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-4">
+                <h2>微信平台为什么会影响我打字?</h2>
+                <p>微信小程序可能抢焦点，这是已知问题。建议：</p>
+                <ol>
+                    <li>开启高级功能"<span class="highlight">微信抢鼠标处理</span>"。</li>
+                    <li>新建一个系统桌面运行机器人。</li>
+                    <li>或在虚拟机中运行机器人。</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-5">
+                <h2>虚拟机/云电脑运行不稳定怎么办?</h2>
+                <ol>
+                    <li>调大任务间隔，避免卡顿和弹窗漏检。</li>
+                    <li>不要隐藏小程序窗口（虚拟环境下更容易异常）。</li>
+                    <li>优先使用默认配置，再逐项微调。</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-6">
+                <h2>为什么偶尔会停机或重启?</h2>
+                <p>程序包含稳定性保护机制，例如：</p>
+                <ul class="dot-list">
+                    <li>“下次再来”/“重新连接”检测</li>
+                    <li>周期重启策略</li>
+                    <li>休息时段暂停</li>
+                </ul>
+                <p>这类行为通常是预期保护，不是单纯故障。</p>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-7">
+                <h2>如何安全升级版本?</h2>
+                <ol>
+                    <li>先关闭当前程序。</li>
+                    <li>下载最新安装包并安装。</li>
+                    <li>启动后先观察日志与关键功能（收获、播种、好友链路）是否正常。</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-8">
+                <h2>去哪里反馈问题?</h2>
+                <ul>
+                    <li>Telegram 群：<a href="https://t.me/qq_farm_bot_ai" target="_blank" rel="noreferrer">https://t.me/qq_farm_bot_ai</a></li>
+                    <li>GitHub Issues：<a href="https://github.com/hacker-frok/qq-farm-bot-ai/issues" target="_blank" rel="noreferrer">https://github.com/hacker-frok/qq-farm-bot-ai/issues</a></li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section class="faq-item" id="faq-9">
+                <h2>免责声明</h2>
+                <p>本项目仅用于学习与研究计算机视觉自动化技术。使用本项目可能违反相关平台服务条款并带来账号风险，后果由使用者自行承担。</p>
+            </section>
+
+            <div class="page-nav">
+                <div class="page-nav-label">Previous page</div>
+                <a class="page-nav-link" href="install.html">安装版帮助文档</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="static/js/theme.js"></script>
+    <script>
+        (function () {
+            var sections = document.querySelectorAll(".faq-content [id]");
+            var navLinks = document.querySelectorAll(".sidebar-nav a");
+            window.addEventListener("scroll", function () {
+                var current = "";
+                var offset = (document.querySelector("header") || {}).offsetHeight || 0;
+                sections.forEach(function (section) {
+                    if (window.pageYOffset >= section.offsetTop - offset - 32) {
+                        current = section.getAttribute("id");
+                    }
+                });
+                navLinks.forEach(function (link) {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === "#" + current) {
+                        link.classList.add("active");
+                    }
+                });
+            }, { passive: true });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* ============================================
+   install.css - 安装/帮助文档页专属样式
+   ============================================ */
+
+/* ---- 文档主体布局 ---- */
+.doc-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+/* ---- 左侧侧边栏 ---- */
+.sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 100px;
+    border-right: 1px solid var(--border-color);
+    padding-right: 20px;
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.sidebar-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 16px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 12px;
+}
+
+.sidebar-nav a {
+    font-size: 14px;
+    color: var(--text-secondary);
+    display: block;
+    transition: color 0.2s;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+    color: var(--link-color);
+}
+
+/* ---- 右侧文档正文 ---- */
+.doc-content {
+    flex: 1;
+    max-width: 760px;
+}
+
+.doc-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--text-main);
+}
+
+.doc-content > p.desc {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+}
+
+.doc-content hr {
+    border: none;
+    border-top: 1px solid var(--border-color-darker);
+    margin: 40px 0 30px;
+}
+
+.doc-content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--text-main);
+    scroll-margin-top: 96px;
+}
+
+.doc-content h2:first-of-type {
+    margin-top: 0;
+}
+
+.doc-content p {
+    margin-bottom: 16px;
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+.doc-content ul,
+.doc-content ol {
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.doc-content li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+.doc-content a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.doc-content a:hover {
+    opacity: 0.8;
+}
+
+.doc-content code {
+    background-color: var(--bg-code);
+    color: var(--text-code);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 13px;
+}
+
+/* ---- 响应式 ---- */
+@media (max-width: 900px) {
+    .doc-container {
+        gap: 30px;
+    }
+    .sidebar {
+        width: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .doc-container {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .sidebar {
+        display: none;
+    }
+}
